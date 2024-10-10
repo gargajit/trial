@@ -1,0 +1,73 @@
+/* Header Div */
+.header {
+    background-color: #f4ffec;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center; 
+}
+
+/* Logo Image */
+#logo {
+    height: 3.5rem;
+}
+
+/* Header Links on Right Side */
+.header-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Anchor tags of Header Links on Right Side */
+.header-links > a {
+    text-decoration: none;
+    color: #008CBA;
+    text-shadow: 2px 2px 25px #72c1db;
+}
+.header-links > a:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+
+/* Book My Appointment Button on header*/
+.header-links > .linkAsButton {
+    background-color: #f4ffec;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    padding: 6px 12px;
+    text-shadow: none;
+}
+.header-links > .linkAsButton:hover {
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+
+/* Unordered List with image */
+.unorderedList {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.unorderedList li {
+    background-image: url("assets/caret-right-fill.svg");
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    padding-left: 25px;
+}
+
+ 
+
+
+/* Garbage or Removed styling */
+/* .header-links > button {
+    border-radius: 5px;
+    background-color: #f4ffec;
+    color: #008CBA;
+    border-color: #008CBA;
+    padding: 8px;
+} */
