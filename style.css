@@ -51,7 +51,7 @@
 /* Unordered List with image */
 .unorderedList {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .unorderedList li {
     background-image: url("assets/caret-right-fill.svg");
