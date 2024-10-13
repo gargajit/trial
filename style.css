@@ -2,14 +2,14 @@
 .header {
     background-color: #f4ffec;
     margin: 0;
-    padding: 5px;
     display: flex;
     align-items: center; 
+    justify-content: space-between;
 }
 
 /* Logo Image */
 #logo {
-    height: 3.5rem;
+    height: 4rem;
 }
 
 /* Header Links on Right Side */
@@ -17,18 +17,24 @@
     display: flex;
     gap: 15px;
     align-items: center;
+    margin-left: 10px;
+    padding: 0 5px;
 }
 
 /* Anchor tags of Header Links on Right Side */
 .header-links > a {
     text-decoration: none;
     color: #008CBA;
+    padding: 2px;
     text-shadow: 2px 2px 25px #72c1db;
+    transition: font-size 0.23s, transform 0.23s;
 }
 .header-links > a:hover {
     color: #ff69b4;
     text-decoration: underline;
-    font-size: 110%;
+    /* font-size: 115%; */
+    /* transform: rotate(-10deg); */
+    transform: scale(1.3,1.3);
 }
 
 
@@ -45,6 +51,7 @@
     color: white;
     text-decoration: none;
     font-size: 100%;
+    transform: scale(1.1,1.1);
 }
 
 
