@@ -6,6 +6,13 @@
     align-items: center; 
     justify-content: space-between;
 }
+@keyframes animate-header {
+    20% {background-color: #add7e577;}
+    100% {background-color: #f4ffec;}
+}
+.header:hover {
+    animation: animate-header 500ms ease-in-out;
+}
 
 /* Logo Image */
 #logo {
@@ -65,9 +72,19 @@
     background-repeat: no-repeat;
     background-position: 0 3px;
     padding-left: 25px;
+    line-height: 1.5rem;
 }
 
- 
+.tooltip {
+    position: relative;
+}
+
+.tooltiptext {
+    position: absolute;
+    /* visibility: hidden; */
+    background-color:antiquewhite;
+    padding: 5px 2px;
+}
 
 
 /* Garbage or Removed styling */
