@@ -72,7 +72,8 @@
     background-repeat: no-repeat;
     background-position: 0 3px;
     padding-left: 25px;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    background-position: 0 50%;
 }
 
 .tooltip {
@@ -80,10 +81,33 @@
 }
 
 .tooltiptext {
+    visibility: hidden;
+    background-color:slategray;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+
+    /* Position the tooltip */
     position: absolute;
-    /* visibility: hidden; */
-    background-color:antiquewhite;
-    padding: 5px 2px;
+    z-index: 1;
+    margin-left: 5px;
+    top: -7px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    top: 50%;
+    right: 100%;
+    border-color: transparent slategray transparent transparent;
 }
 
 
