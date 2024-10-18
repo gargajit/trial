@@ -1,6 +1,21 @@
+/* Body */
+body {
+    background-image: url("/assets/bg-4.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.josefin-sans-bold {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Header Div */
 .header {
-    background-color: #f4ffec;
+    /* background-color: #f4ffec; */
     margin: 0;
     display: flex;
     align-items: center; 
@@ -8,7 +23,7 @@
 }
 @keyframes animate-header {
     20% {background-color: #add7e577;}
-    100% {background-color: #f4ffec;}
+    100% {background-color: transparent;}
 }
 .header:hover {
     animation: animate-header 500ms ease-in-out;
@@ -47,7 +62,7 @@
 
 /* Book My Appointment Button on header*/
 .header-links > .linkAsButton {
-    background-color: #f4ffec;
+    /* background-color: #f4ffec; */
     border: 2px solid #008CBA;
     border-radius: 5px;
     padding: 6px 12px;
@@ -110,6 +125,10 @@
     border-color: transparent slategray transparent transparent;
 }
 
+#main-heading {
+    background: rgb(247, 236, 255, 0.3);
+    padding: 5px 0;
+}
 
 /* Garbage or Removed styling */
 /* .header-links > button {
