@@ -1,9 +1,11 @@
 /* Body */
 body {
-    background-image: url("/assets/bg-4.jpg");
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("/assets/bird_fying_high.png"), url("/assets/bg-4.jpg");
+    background-size: 80px, auto;
+    background-position: right top, center;
+    background-position-y: center;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, scroll;
 }
 
 .josefin-sans-bold {
@@ -48,7 +50,7 @@ body {
     text-decoration: none;
     color: #008CBA;
     padding: 2px;
-    text-shadow: 2px 2px 25px #72c1db;
+    /* text-shadow: 2px 2px 25px #72c1db; */
     transition: font-size 0.23s, transform 0.23s;
 }
 .header-links > a:hover {
